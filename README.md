@@ -31,7 +31,7 @@ It supports expense management, category-wise summaries, and testing with Postma
 ---
 
 ## 📂 Project Structure
-'''
+```
 expense-tracking-system/
 │── backend/
 │ ├── db_helper.py # Handles database operations
@@ -50,7 +50,7 @@ expense-tracking-system/
 │
 │── requirements.txt # Dependencies
 │── README.md # Project documentation
-'''
+```
 
 
 ---
