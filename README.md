@@ -31,25 +31,24 @@ It supports expense management, category-wise summaries, and testing with Postma
 ---
 
 ## 📂 Project Structure
-
 expense-tracking-system/
 │── backend/
-│   ├── db_helper.py    
-│   ├── server.py          
-│   ├── logging_setup.py          
+│ ├── db_helper.py # Handles database operations
+│ ├── server.py # FastAPI server application
+│ ├── logging_setup.py # Logging configuration
 │
 │── frontend/
-│   ├── app.py        
-│   ├── add_update_ui.py 
-│   ├── analytics_category_ui.py 
-│   ├── analytics_month_ui.py 
+│ ├── app.py # Main Streamlit app
+│ ├── add_update_ui.py # UI for adding/updating expenses
+│ ├── analytics_category_ui.py # UI for category-wise analytics
+│ ├── analytics_month_ui.py # UI for monthly analytics
 │
 │── tests/
-│   ├── test_db_helper.py   
-│   ├── conftest.py         
+│ ├── test_db_helper.py # Pytest unit tests
+│ ├── conftest.py # Pytest fixtures (if needed)
 │
-│── requirements.txt        # Dependencies
-│── README.md               # Project documentation
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
 
 
 ---
