@@ -86,6 +86,8 @@ streamlit run frontend/app.py
 ## 🧪 Running Tests
 pytest
 
+Can create multiple more test cases for all the different functions and also frontend part
+
 ## 📸 Screenshots
 Screenshots of the application are uploaded in the repository:
 Streamlit App – User-friendly interface for expense tracking
